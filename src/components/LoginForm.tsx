@@ -11,8 +11,12 @@ function LoginForm() {
         <div className=' w-max px-4 py-4 bg-indigo-900 '>
        <p className='text-white '>Get Started</p>
 
+<form>
+<label>UserName</label>
+<input type="text" name="userName" />
 
 
+</form>
        <button className='bg-orange-500 rounded-md px-2 mt-5 py-1'>Join Now!</button>
        
         </div>
