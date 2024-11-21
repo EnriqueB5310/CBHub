@@ -43,10 +43,10 @@ function NavBar() {
                   <a href="/about">About</a>
                 </li>
                 <li className="border-b border-gray-400 my-8 uppercase">
-                  <a href="/portfolio">Portfolio</a>
+                  <a href="/portfolio">New Comics</a>
                 </li>
                 <li className="border-b border-gray-400 my-8 uppercase">
-                  <a href="/contact">Contact</a>
+                  <a href="/contact">Browse</a>
                 </li>
                 <li className="border-b border-gray-400 my-8 uppercase">
                 <a href='/login'>Login</a>
