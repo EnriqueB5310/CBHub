@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from "react";
+import { NavLink } from 'react-router-dom';
 
 const title: string = "CBHub"
 
@@ -43,7 +44,9 @@ function NavBar() {
                   <a href="/about">About</a>
                 </li>
                 <li className="border-b border-gray-400 my-8 uppercase">
+                 <NavLink to="/releases" end>
                   <a href="/portfolio">New Comics</a>
+                  </NavLink>
                 </li>
                 <li className="border-b border-gray-400 my-8 uppercase">
                   <a href="/contact">Browse</a>
