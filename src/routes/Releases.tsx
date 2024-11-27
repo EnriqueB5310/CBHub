@@ -4,7 +4,7 @@ import NavBar from '../components/NavBar'
 function Releases() {
   return (
     
-    <NavBar />
+    <NavBar />   
   )
 }
 
